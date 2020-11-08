@@ -14,7 +14,7 @@ function About() {
                     <picture className='about__photo'>
                         <source srcset={photo_m} media="(min-width: 768px)"></source>
                         <source srcset={photo_l} media="(min-width: 1024px)"></source>
-                        <img  src={photo_s}></img>
+                        <img  src={photo_s} alt="my pfoto"></img>
                     </picture>
                     <div className='about__text-wrapper'>
                         <h2 className='about__header'>About me</h2>
