@@ -11,10 +11,10 @@ function About() {
             <div className='container'>
                 <Menu/>
                 <div className='about__wrapper'>
-                    <picture className='about__photo'>
+                    <picture>
                         <source srcset={photo_m} media="(min-width: 768px)"></source>
                         <source srcset={photo_l} media="(min-width: 1024px)"></source>
-                        <img  src={photo_s} alt="my pfoto"></img>
+                        <img  src={photo_s} alt="my pfoto" width='320px' height='697px'className='about__photo'></img>
                     </picture>
                     <div className='about__text-wrapper'>
                         <h2 className='about__header'>About me</h2>
